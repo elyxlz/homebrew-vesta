@@ -3,12 +3,12 @@ cask "vesta" do
 
   on_arm do
     url "https://github.com/elyxlz/vesta/releases/download/v0.1.58/Vesta_0.1.58_aarch64.dmg"
-    sha256 "84b9680c81a1e5f1d8d491f2c4d1dae6f201f1f2486e9bd3f6be3b23423c046e"
+    sha256 "f99140117030a923ecdbea05957d65583556d5a85211f0f2f6aa721c092e8856"
   end
 
   on_intel do
     url "https://github.com/elyxlz/vesta/releases/download/v0.1.58/Vesta_0.1.58_x64.dmg"
-    sha256 "e75d8eea3c8f13d813352cae42129ac44f8d9352cba21d885cadbf3a72984b0a"
+    sha256 "94b8ed3508f599bb943277bd97965ce4ce656ddb258241f7f7b61ca08819f8e0"
   end
 
   name "Vesta"
