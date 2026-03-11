@@ -1,28 +1,28 @@
 class VestaCli < Formula
   desc "CLI for managing the Vesta autonomous AI agent"
   homepage "https://github.com/elyxlz/vesta"
-  version "0.1.76"
+  version "0.1.77"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/elyxlz/vesta/releases/download/v0.1.76/vesta-aarch64-apple-darwin.tar.gz"
-      sha256 "695f300998ddf0263ab52191f3aa1f298fac10b54ca78770ebc0d5fbac0f957f"
+      url "https://github.com/elyxlz/vesta/releases/download/v0.1.77/vesta-aarch64-apple-darwin.tar.gz"
+      sha256 "3e722faa05abec3325dca05e05368571dedc0efbaefdbb4cc46b63f4bdb608cf"
     end
     on_intel do
-      url "https://github.com/elyxlz/vesta/releases/download/v0.1.76/vesta-x86_64-apple-darwin.tar.gz"
-      sha256 "048235cacb21feccbfe1f0a6439ed5ffe2b88af78807b58e20f339b0a32a75b5"
+      url "https://github.com/elyxlz/vesta/releases/download/v0.1.77/vesta-x86_64-apple-darwin.tar.gz"
+      sha256 "19e55f455b5276f8baa8374a5b99a3f66791303d2d5be6f7111a4815699e3c7a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/elyxlz/vesta/releases/download/v0.1.76/vesta-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d0a52f59d83b0c5af08f589e2670faeca17395dcdb55225ae0caadf32973b352"
+      url "https://github.com/elyxlz/vesta/releases/download/v0.1.77/vesta-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "61e2c4733c513e312f01709bc461190b8b596086c2317e91e5e1a11644f6af34"
     end
     on_intel do
-      url "https://github.com/elyxlz/vesta/releases/download/v0.1.76/vesta-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8c432caab96cd836ab71cba5ec913ab035756473b10bb77a614b013455a4486a"
+      url "https://github.com/elyxlz/vesta/releases/download/v0.1.77/vesta-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "79c24de4b5a4d43220dcb8c5ce91120bb07b157fe6d01e413757c950e52763d9"
     end
   end
 
